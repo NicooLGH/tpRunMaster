@@ -1,0 +1,161 @@
+body{
+    min-height: 100vh;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: 0;
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 3rem;
+}
+
+h2{
+    margin: 0;
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 2rem; 
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(./assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+p{
+    font-family: Montserrat;
+    line-height: 35px;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+button{
+    padding: 15px 35px;
+    background-color: transparent;
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+/* ------------------------------ */
+.one{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.one-left{
+    padding: 50px;
+}
+
+.one-left-container{
+    padding: 200px 0;
+}
+
+.one-right{
+    background: url(banner.jpg) right/cover;
+}
+
+.two{
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+.two-left{
+    background: url(img-left.jpg) center/cover;
+}
+
+.two-right{
+    padding: 75px 50px;
+}
+
+.three{
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+
+.three-left{
+    padding: 75px 50px;
+}
+
+.three-right{
+    background: url(img-right.jpg) center/cover;
+}
+
+form{
+    width: 45%;
+    margin: 75px auto;
+    text-align: center;
+}
+
+.form-header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.form-header-text{
+    display: grid;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+input[type="text"]{
+    padding: 8px 72px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid rgb(186, 186, 186);
+    box-sizing: border-box;
+}
+
+label{
+    font-family: Montserrat;
+    line-height: 70px;
+}
+
+.form-content{
+    display: grid;
+    width: 100%;
+    text-align: center;
+}
+
+#textarea{
+    min-height: 150px;
+    border: 1px solid rgb(186, 186, 186);
+}
+
+.button{
+    margin-top: 40px;
+}
+
+.social-media{
+    width: 50%;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+
+}
+
+.social-media i{
+    padding: 10px;
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 100px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.social-media i:hover{
+    background-color: black;
+    color: white;
+}
+
